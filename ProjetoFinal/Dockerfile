@@ -13,8 +13,7 @@ RUN mvn dependency:go-offline
 # Copia o código-fonte
 COPY src ./src
 
-# Compila o projeto e gera o jar (pulando os testes para acelerar, opcional)
-RUN mvn clean package -DskipTests
+RUN mvn clean package -Dmaven.test.skip=true
 
 # Etapa 2: Imagem menor para rodar o jar (JRE leve Alpine com Java 17)
 FROM eclipse-temurin:17-jre-alpine
