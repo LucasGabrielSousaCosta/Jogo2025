@@ -1,0 +1,10 @@
+com\javabd\jogo\App.class
+com\javabd\jogo\config\WebConfig.class
+com\javabd\jogo\repository\UsuarioRepository.class
+com\javabd\jogo\controller\UsuarioController.class
+com\javabd\jogo\dto\UsuarioDTO.class
+com\javabd\jogo\mapper\UsuarioMapper.class
+com\javabd\jogo\service\UsuarioService.class
+com\javabd\jogo\model\Usuario.class
+com\javabd\jogo\config\WebConfig$1.class
+com\javabd\jogo\mapper\UsuarioMapperImpl.class
