@@ -4,3 +4,4 @@ Outra limitação é que no plano gratis do render a aplicação entra em uma fi
 https://jogo2025.onrender.com/ -> link do render, não possui mapping para a pagina inicial.
 https://jogo2025.onrender.com/usuarios -> exemplo de metodo do spring boot que retorna todos os usuarios cadastrados.
 https://jogo2025.onrender.com/usuarios/top10 -> exemplo de metodo que retorna os usuarios que possuem as 10 maiores pontuações.
+Para testar outras funções é preciso enviar um json de acordo com as classes do spring boot.
